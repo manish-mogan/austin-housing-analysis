@@ -95,10 +95,13 @@ Move your mouse over any point to see:
 - **Location**: Austin, Texas metropolitan area
 
 ### Technology Stack
-- **Visualization**: Altair 5.5.0
+- **Visualization**: Altair 5.5.0 (with JSON data transformer enabled for large datasets)
 - **Data Processing**: Pandas 2.3.3
 - **Statistics**: SciPy 1.16.2, NumPy 2.3.4
 - **Environment**: Python 3.12.3
+
+### Important Note on Data Size
+The visualization uses Altair's JSON data transformer (`alt.data_transformers.enable('json')`) to handle the 15,171 property records, which exceeds Altair's default 5,000-row limit. This transformer saves the data to temporary JSON files instead of embedding it directly in the visualization, enabling smooth rendering of large datasets.
 
 ### Amenity Score Calculation
 The amenity score (0-5) is calculated by counting these features:
