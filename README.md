@@ -1,10 +1,45 @@
-# Austin-Housing-Data-Analysis-CS329E
+# Austin Housing Data Analysis
 
+## Overview
+This repository contains data analysis and visualizations exploring Austin's housing market trends, with a focus on affordability challenges and property value distributions.
 
+## Visualizations
 
-## Getting started
+### Visual 1: Property Value Distribution Over Time (Austin vs. U.S.)
+An interactive stacked bar chart showing how Austin's housing market has shifted toward higher-priced homes compared to national trends from 2015-2023.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+**Key Finding**: Austin's affordable housing (<$200K) decreased from 38% to 5.7%, while expensive homes ($500K+) increased from 13.4% to 51.4%.
+
+📊 [View detailed visualization guide](VISUALIZATION_GUIDE.md)
+
+![Property Value Distribution](images/property_value_visualization.png)
+
+## Getting Started
+
+### Prerequisites
+```bash
+pip install pandas altair jupyter matplotlib
+```
+
+### Running the Analysis
+1. Clone this repository
+2. Open `analysis.ipynb` in Jupyter Notebook/JupyterLab
+3. Run the cells to see interactive visualizations
+
+## Repository Structure
+- `analysis.ipynb` - Main analysis notebook with interactive visualizations
+- `data files/` - Source data files for analysis
+- `images/` - Static visualization images
+- `VISUALIZATION_GUIDE.md` - Detailed documentation for visualizations
+
+## Data Sources
+- Property value distributions for Austin, TX and United States (2015-2023)
+- Housing characteristics and trends
+- Income and affordability metrics
+
+---
+
+## Additional Resources
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
