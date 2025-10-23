@@ -1,0 +1,17 @@
+# Core dependencies for Austin Housing Analysis project
+# Required for data manipulation and visualization in Jupyter notebooks
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.14.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+nbformat>=5.7.0
+ipykernel>=6.21.0
+
+# Additional utilities
+matplotlib>=3.7.0

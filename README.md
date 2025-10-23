@@ -1,12 +1,37 @@
-# Austin-Housing-Data-Analysis-CS329E
+# Austin Housing Data Analysis
 
+## Overview
 
+This project analyzes housing data in Austin, Texas, providing interactive visualizations of median housing prices across different ZIP codes over time.
 
-## Getting started
+## Installation
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. Clone this repository
+2. Install the required dependencies:
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+The project includes Jupyter notebooks with interactive visualizations:
+
+- `Visual 3.ipynb` - Housing price analysis visualizations
+- `Visual 4.ipynb` - Geographic distribution of median housing prices (choropleth map)
+
+To run the notebooks:
+
+```bash
+jupyter notebook
+```
+
+Then open the desired notebook file in your browser.
+
+## Requirements
+
+- Python 3.8 or higher
+- See `requirements.txt` for package dependencies
 
 ## Add your files
 
